@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f5;
+    color: #222;
+}
+
+.seccion {
+    display: none;
+}
+
+.activa {
+    display: block;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    background: #22223b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.4rem;
+    border-bottom: 4px solid #4f46e5;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin: 15px 0 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #4f46e5;
+    margin: 15px 0 5px;
+    font-size: 0.95rem;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    font-size: 0.9rem;
+    margin-right: 10px;
+}
+
+input, select {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+input:focus, select:focus {
+    border-color: #4f46e5;
+    outline: none;
+}
+
+button {
+    padding: 10px 16px;
+    border: 1px solid #4f46e5;
+    background: white;
+    color: #4f46e5;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: #4f46e5;
+    color: white;
+}
+
+td button:last-child {
+    border-color: #c0392b;
+    color: #c0392b;
+}
+
+td button:last-child:hover {
+    background: #c0392b;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+thead {
+    background: #22223b;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+tbody tr:hover {
+    background: #dde1ff;
+}
